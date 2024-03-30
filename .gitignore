@@ -1,4 +1,4 @@
-# Dependencies and AdonisJS build
+# Dependencies
 node_modules
 build
 tmp
@@ -14,10 +14,9 @@ tmp
 npm-debug.log
 yarn-error.log
 
-# Editors specific
-.fleet
-.idea
+# Editors 
 .vscode
 
-# Platform specific
-.DS_Store
+# Next
+.next
+certificates

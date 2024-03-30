@@ -11,7 +11,9 @@
     "fresh": "pnpm clean && pnpm i",
     "nuke": "rimraf pnpm-lock.yaml && pnpm fresh",
     "lint": "pnpm -r run lint",
-    "format": "pnpm -r run format"
+    "format": "pnpm -r run format",
+    "frontend": "pnpm --filter @hm/frontend",
+    "backend": "pnpm --filter @hm/backend"
   },
   "license": "ISC",
   "engines": {
