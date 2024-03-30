@@ -1,0 +1,24 @@
+{
+  "name": "@hm/core",
+  "version": "1.0.0",
+  "description": "HouseManager is website to manage your house",
+  "author": "Kalvin VILLA <kalvin.villa@danone.com> (https://github.com/KalvinVilla)",
+  "scripts": {
+    "start": "pnpm --stream -r start",
+    "dev": "pnpm --parallel --stream -r run dev",
+    "build": "pnpm --stream -r run build",
+    "clean": "rimraf node_modules && pnpm -r run clean",
+    "fresh": "pnpm clean && pnpm i",
+    "nuke": "rimraf pnpm-lock.yaml && pnpm fresh",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.12.0",
+    "pnpm": ">=8.15.5",
+    "npm": "please use pnpm",
+    "yarn": "please use pnpm"
+  },
+  "packageManager": "pnpm@8.15.4"
+}
