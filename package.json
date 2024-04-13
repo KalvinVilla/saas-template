@@ -13,7 +13,9 @@
     "lint": "pnpm -r run lint",
     "format": "pnpm -r run format",
     "frontend": "pnpm --filter @hm/frontend",
-    "backend": "pnpm --filter @hm/backend"
+    "backend": "pnpm --filter @hm/backend",
+    "ui": "pnpm --filter @hm/ui",
+    "storybook": "pnpm --filter @hm/storybook"
   },
   "license": "ISC",
   "engines": {
