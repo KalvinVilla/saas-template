@@ -6,7 +6,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
     "./stories/**/*.{js,jsx,ts,tsx}",
    ],
-   darkMode: 'selector',
+   darkMode: 'class',
     theme: {
       extend: {},
     },
