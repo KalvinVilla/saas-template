@@ -1,0 +1,14 @@
+{
+    "name": "@hm/tailwind",
+    "private": "true",
+    "version": "1.0.0",
+    "author": "Kalvin VILLA <kalvin.villa@danone.com> (https://github.com/KalvinVilla)",
+    "scripts": {
+        "clean": "rimraf node_modules"
+    },
+    "dependencies": {
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.4.0"
+    }
+}

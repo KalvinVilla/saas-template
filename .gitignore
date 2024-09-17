@@ -20,3 +20,6 @@ yarn-error.log
 # Next
 .next
 certificates
+
+# Pnpm
+pnpm-lock.yaml
